@@ -13,7 +13,7 @@ import com.qualcomm.robotcore.hardware.DcMotorSimple;
 
 @TeleOp
 
-@Disabled
+//@Disabled
 
 public class KPSTeleOp extends LinearOpMode {
     @Override

@@ -57,9 +57,12 @@ public class HardwarePowerPlay {
 
         // Reverse the right side motors
         // Reverse left motors if you are using NeveRests
-        motorFrontLeft.setDirection(DcMotorSimple.Direction.REVERSE);
-        motorBackLeft.setDirection(DcMotorSimple.Direction.REVERSE);
+        motorFrontLeft.setDirection(DcMotorSimple.Direction.REVERSE);//set for PracticeBot
+        motorBackLeft.setDirection(DcMotorSimple.Direction.REVERSE); //Set for PracticeBot
+        //motorFrontRight.setDirection(DcMotorSimple.Direction.REVERSE);//set for Competition
+        //motorBackRight.setDirection(DcMotorSimple.Direction.REVERSE); //Set for Competition
 
+        
         //Initialize DoubleReverse 4-Bar Lift
         leftLift= HWMap.dcMotor.get("leftLift");
         rightLift= HWMap.dcMotor.get("rightLift");
